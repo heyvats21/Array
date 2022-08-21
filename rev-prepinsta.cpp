@@ -16,6 +16,8 @@ int main(){
     //     cout<<arr[i];
     // }
 
+
+// METHOD 2
     reverse(arr,arr+n);
     cout<<"reversed array is: "<<endl;
     for(int i=0;i<n;i++){
