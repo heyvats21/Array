@@ -8,7 +8,7 @@ int main(){
     sort(arr,arr+n);  //5 5 5 5 7 7 8 8 10 
     for(int i=0;i<n;i++){
         int count =1;
-        while(arr[i]==arr[i+1]){
+        while(arr[i]==arr[i+1]){       //if = one time condition & while does till the condition is true
             i++;
             count++;
         }
