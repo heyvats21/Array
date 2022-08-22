@@ -48,29 +48,29 @@
 
 // Q3-)second smallest element in an  array 
 
-// #include<bits/stdc++.h>
-// using namespace std;
+#include<bits/stdc++.h>
+using namespace std;
 
-// int main(){
-//     int arr[]={14,23,11,56};
-//     int n=sizeof(arr)/sizeof(arr[0]);
-//     int smallest=INT_MAX;
-//     int sec_smallest=INT_MAX;
+int main(){
+    int arr[]={14,23,11,56};
+    int n=sizeof(arr)/sizeof(arr[0]);
+    int smallest=INT_MAX;
+    int sec_smallest=INT_MAX;
 
-//     for(int i=0;i<n;i++){
-//         if(arr[i]<smallest){
-//             sec_smallest=smallest;
-//             smallest=arr[i]; 
-//             // smallest=arr[i];   *********************doubt if we done this*************
-//             // sec_smallest=smallest;
-//         }
-//         else if(sec_smallest>arr[i]){
-//             sec_smallest=arr[i];
-//         }
-//     }
+    for(int i=0;i<n;i++){
+        if(arr[i]<smallest){
+            sec_smallest=smallest;
+            smallest=arr[i]; 
+            // smallest=arr[i];   *********************doubt if we done this*************
+            // sec_smallest=smallest;
+        }
+        else if(sec_smallest>arr[i]){
+            sec_smallest=arr[i];
+        }
+    }
 
-//     cout<<"Second Smallest element is: "<<sec_smallest;
-// }
+    cout<<"Second Smallest element is: "<<sec_smallest;
+}
 
 
 
